@@ -45,7 +45,7 @@ Para realizarmos a operção de restauração:
 pg_restore -U postgres -d bicimoto C:\backup\bicimoto.tar
 ```
 
-## Criando Script Python:
+## Configurando API:
 
 ### Criando um serviço no Google Cloud com a API Drive:
 
