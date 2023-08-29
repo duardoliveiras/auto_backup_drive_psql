@@ -49,24 +49,24 @@ pg_restore -U postgres -d bicimoto C:\backup\bicimoto.tar
 
 ### Criando um serviço no Google Cloud com a API Drive:
 
-1. Acesse: [https://console.cloud.google.com](https://console.cloud.google.com/)
+1. Acesse: [Google Cloud](https://console.cloud.google.com/)
 2. Crie um projeto novo
-3. Acesse: [https://console.cloud.google.com/apis/library/drive.googleapis.com](https://console.cloud.google.com/apis/library/drive.googleapis.com) e adicione ao projeto
+3. Acesse: [Google Drive API](https://console.cloud.google.com/apis/library/drive.googleapis.com) e adicione ao projeto
 4. Crie uma nova credencial do tipo **ID do Cliente OAuth:**
 
-![](Imgs/0.png)
+![0](Imgs/0.png)
 
 1. Na configuração da credencial adicione a ****URI de redirecionamento autorizados:****
 
-![Untitled](Imgs/01.png)
+![1](Imgs/1.png)
 
 1. Nas configurações de **tela de permissão OAtuh:**
 
-![Untitled](Imgs/02.png)
+![2](Imgs/2.png)
 
 1. Com a API configurada podemos baixar o arquivo Json com as credenciais de acesso:
 
-![Untitled](Imgs/03.png)
+![3](Imgs/3.png)
 
 1. O nome do arquivo baixado será algo parecido com: `client_secret_5jd89asdh78asghd78sagda8s76dgi76uguq6yg.apps.googleusercontent.com (2)` Renomeie para `client_secrets`
 2. Mova o `client_secrets.json` para a pasta raiz do script Python.
