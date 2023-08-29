@@ -1,4 +1,5 @@
 # Backup Postgresql
+Este repositório tem como objetivo desenvolver um script em `.bat` que utiliza o `PG_DUMP` para criar um backup local de um banco de dados PostgreSQL no formato .tar. Para efetuar o envio desse backup para a nuvem, fazemos uso da biblioteca `PyDrive` juntamente com a `API do Google Drive`. Com o auxílio do Agendador de Tarefas do Windows, é possível automatizar o processo de criação do backup local e, em seguida, executar um programa em Python que se encarregará de enviar o arquivo para o Google Drive.
 
 ### Iniciando:
 
