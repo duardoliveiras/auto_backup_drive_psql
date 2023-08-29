@@ -56,17 +56,17 @@ pg_restore -U postgres -d bicimoto C:\backup\bicimoto.tar
 
 ![0](Imgs/0.png)
 
-1. Na configuração da credencial adicione a ****URI de redirecionamento autorizados:****
+5. Na configuração da credencial adicione a ****URI de redirecionamento autorizados:****
 
 ![1](Imgs/1.png)
 
-1. Nas configurações de **tela de permissão OAtuh:**
+6. Nas configurações de **tela de permissão OAtuh:**
 
 ![2](Imgs/2.png)
 
-1. Com a API configurada podemos baixar o arquivo Json com as credenciais de acesso:
+7. Com a API configurada podemos baixar o arquivo Json com as credenciais de acesso:
 
 ![3](Imgs/3.png)
 
-1. O nome do arquivo baixado será algo parecido com: `client_secret_5jd89asdh78asghd78sagda8s76dgi76uguq6yg.apps.googleusercontent.com (2)` Renomeie para `client_secrets`
-2. Mova o `client_secrets.json` para a pasta raiz do script Python.
+8. O nome do arquivo baixado será algo parecido com: `client_secret_5jd89asdh786dgi76uguq6yg.apps.googleusercontent.com` Renomeie para `client_secrets`
+9. Mova o `client_secrets.json` para a pasta raiz do script Python.
